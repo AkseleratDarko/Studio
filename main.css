@@ -29,7 +29,7 @@ ul {
 }
 
 .block {
-    background-image: url(./image/background.jpg);
+    background: url(./image/background.jpg);
     background-repeat: no-repeat;
     height: 7500px;
     width: 1920px;
@@ -98,7 +98,7 @@ body {
 }
 
 .main {
-    background-image: url(/image/main.JPG);
+    background: url(./image/main.JPG);
     background-position: -1px 0;
     background-repeat: no-repeat;
     width: 1750px;
@@ -153,7 +153,7 @@ body {
 }
 
 .group {
-    background-image: url(/image/group.JPG);
+    background: url(./image/group.JPG);
     background-position: -1px -1px;
     background-repeat: no-repeat; 
     width: 1750px;
@@ -204,7 +204,7 @@ body {
     width: 270px;
     height: 445px;
     margin-left: 10px;;
-    background-image: url(./image/рамка.svg);
+    background-image: url(./image/icon/рамка.svg);
     background-repeat: no-repeat;
     
     
@@ -310,7 +310,7 @@ body {
 }
 
 .advantages {
-    background-image: url(/image/advantages.JPG);
+    background: url(./image/advantages.JPG);
     background-position: -1px -1px;
     background-repeat: no-repeat;  
     width: 1750px;
