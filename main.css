@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 *{
@@ -77,7 +78,7 @@ body {
     text-transform: uppercase;
     color: white;
     text-decoration: none;
-    
+    scroll-behavior: smooth;
 }
 
 .feedback {
