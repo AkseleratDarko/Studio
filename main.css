@@ -329,7 +329,7 @@ body {
 }
 
 .advantages {
-    background: url(./image/advantages.jpg);
+    background-image: url(./image/advantages.jpg);
     background-position: -1px -1px;
     background-repeat: no-repeat;  
     width: 1750px;
