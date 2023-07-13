@@ -77,6 +77,7 @@ body {
     text-transform: uppercase;
     color: white;
     text-decoration: none;
+    
 }
 
 .feedback {
@@ -98,7 +99,7 @@ body {
 }
 
 .main {
-    background: url(/image/main.JPG);
+    background: url(./image/main.JPG);
     background-position: -1px 0;
     background-repeat: no-repeat;
     width: 1750px;
@@ -149,11 +150,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 30px;
+    position: relative;
+    
 }
 
+
+  
+  .main-action__link:before{ 
+    content: " ";
+    background: #ffffff;
+    width: 150px;
+    height: 3px;
+    top: 45px;
+    left: -150px;
+    position: absolute;
+  }
+
+
+
 .group {
-    background: url(/image/group.JPG);
+    background: url(./image/group.JPG);
     background-position: -1px -1px;
     background-repeat: no-repeat; 
     width: 1750px;
@@ -224,14 +241,14 @@ body {
 .group-section__title {
     display: flex;
     justify-content: center;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .group-section__text {
     display: flex;
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     padding-top: 25px;
 }
 
@@ -264,8 +281,8 @@ body {
 }
 
 .gallery-img {
-    width: 400px;
-    height: 450px;
+    width: 385px;
+    height: 460px;
     overflow: hidden;
     margin: 15px; 
     border: 2px solid #ffffff;
@@ -273,8 +290,8 @@ body {
 }
 
 .gallery-img__size-doulbe {
-    width: 800px;
-    height: 450px;
+    width: 810px;
+    height: 460px;
     overflow: hidden;
 }
 
@@ -287,12 +304,12 @@ body {
 
 .gallery-img:nth-child(3) {
     padding-right: 50px;
-    padding-left: 5px;
+    
 }
 
 .gallery-img:nth-child(4) {
     height: 399px;
-    margin-right: 5px; 
+    
     margin-top: -420px;
     
 }
@@ -300,17 +317,17 @@ body {
 .gallery-img:nth-child(5) {
     height: 399px;
     margin-top: -420px;
-    margin-right: 5px; 
+    
 }
 
 .gallery-img:nth-child(6) {
     height: 399px;
     margin-top: -420px;
-    margin-right: 5px;  
+     
 }
 
 .advantages {
-    background: url(/image/advantages.JPG);
+    background: url(./image/advantages.jpg);
     background-position: -1px -1px;
     background-repeat: no-repeat;  
     width: 1750px;
@@ -339,10 +356,22 @@ body {
 } 
 
 .advantages-btn {
-    
+
     margin-left: 1300px;
     margin-top: -50px;
+    position: relative;
 }
+
+.advantages-btn:before{ 
+    content: " ";
+    background: #ffffff;
+    width: 167px;
+    height: 3px;
+    top: 45px;
+    right: -169px;
+    position: absolute;
+  }
+
 
 .btn {
     font-size: 26px;
@@ -352,6 +381,7 @@ body {
     color: white;
     width: 330px;
     height: 100px;
+    
 }
 
 .advantages-info__item {
@@ -391,6 +421,7 @@ body {
     background-color: black;
     width: 545px;
     height: 245px;
+    border: 2px solid #ffffff;
 }
 
 .advantages-comp__info {
@@ -410,6 +441,7 @@ body {
     height: 180px;
     margin-left: 363px;
     margin-top: -120px;
+    border: 2px solid #ffffff;
 }
 
 
@@ -439,6 +471,7 @@ body {
 
 .information-item {
     margin-left: 10px;
+    width: 390px;
 }
 
 .information-img {
@@ -508,7 +541,18 @@ body {
     color: white;
     border: 2px solid white;
     font-size: 26px;
+    position: relative;
 }
+
+.information-btn:before{ 
+    content: " ";
+    background: #ffffff;
+    width: 150px;
+    height: 3px;
+    top: 45px;
+    left: -150px;
+    position: absolute;
+  }
 
 .information-fr__info {
     font-size: 26px;
@@ -531,7 +575,7 @@ body {
     display: flex;
     padding: 15px;
     flex-wrap: wrap-reverse;
-    margin-right: 35px;
+    margin-right: 80px;
     justify-content: flex-end;
     align-items: flex-end;   
 }
@@ -545,14 +589,26 @@ body {
 
 .tour-item__video:first-child {
     margin-top: -370px;
-    width: 950px;
-    height: 900px;
+    width: 900px;
+    height: 850px;
+    overflow: hidden
 }
 
 .tour-btn {
     display: block;
-    margin-left: 1231px;
-    margin-top: -122px;
+    margin-left: 1180px;
+    margin-top: -105px;
+    position: relative;
+}
+
+.tour-btn:before {
+    content: " ";
+    background: #ffffff;
+    width: 333px;
+    height: 3px;
+    top: 45px;
+    right: -334px;
+    position: absolute;
 }
 
 .address {
@@ -643,6 +699,9 @@ body {
 
 .footer-socials {
     margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .socials__link {
     width: 50px; 
