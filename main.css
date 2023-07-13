@@ -98,7 +98,7 @@ body {
 }
 
 .main {
-    background: url(./image/main.JPG);
+    background: url(/image/main.JPG);
     background-position: -1px 0;
     background-repeat: no-repeat;
     width: 1750px;
@@ -153,7 +153,7 @@ body {
 }
 
 .group {
-    background: url(./image/group.JPG);
+    background: url(/image/group.JPG);
     background-position: -1px -1px;
     background-repeat: no-repeat; 
     width: 1750px;
@@ -310,7 +310,7 @@ body {
 }
 
 .advantages {
-    background: url(./image/advantages.JPG);
+    background: url(/image/advantages.JPG);
     background-position: -1px -1px;
     background-repeat: no-repeat;  
     width: 1750px;
