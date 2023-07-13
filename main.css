@@ -117,6 +117,7 @@ body {
     padding-top: 90px;
     font-size: 85px;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 .main-title {
@@ -138,20 +139,20 @@ body {
     margin-top: 380px;
     display: flex;
     background-color: black;
-    width: 390px;
-    height: 100px;
+    width: 320px;
+    height: 90px;
     border: 2px solid  #919191;
     text-decoration: none;
 }
 
 .main-action__link {
-    font-size: 25px;
+    font-size: 22px;
     text-transform: uppercase;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding-left: 20px;
     position: relative;
     
 }
@@ -366,22 +367,23 @@ body {
 .advantages-btn:before{ 
     content: " ";
     background: #ffffff;
-    width: 167px;
+    width: 219px;
     height: 3px;
-    top: 45px;
-    right: -169px;
+    top: 38px;
+    left: 277px;
     position: absolute;
+    overflow: hidden;
   }
 
 
 .btn {
-    font-size: 26px;
+    font-size: 23px;
     text-align: center;
     background-color: black;
     border: 2px solid white;
     color: white;
-    width: 330px;
-    height: 100px;
+    width: 280px;
+    height: 80px;
     
 }
 
@@ -536,12 +538,11 @@ body {
 }
 
 .information-btn {
-    width: 335px;
-    height: 100px;
-    background-color: black;
-    color: white;
-    border: 2px solid white;
-    font-size: 26px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 
@@ -550,7 +551,7 @@ body {
     background: #ffffff;
     width: 150px;
     height: 3px;
-    top: 45px;
+    top: 38px;
     left: -150px;
     position: absolute;
   }
@@ -597,7 +598,7 @@ body {
 
 .tour-btn {
     display: block;
-    margin-left: 1180px;
+    margin-left: 1210px;
     margin-top: -105px;
     position: relative;
 }
@@ -605,11 +606,12 @@ body {
 .tour-btn:before {
     content: " ";
     background: #ffffff;
-    width: 333px;
+    width: 353px;
     height: 3px;
-    top: 45px;
-    right: -334px;
+    top: 36px;
+    left: 276px;
     position: absolute;
+    overflow: hidden;
 }
 
 .address {
@@ -724,4 +726,95 @@ body {
 
 .footer-politics__text {
     margin-left: 55px;
+}
+
+.modal {
+    display: none;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+}
+.modal_vis {
+    display: block;
+}
+.body_block {
+    overflow: hidden;
+    margin-right: 17px;
+}
+#close_modal {
+    color: #BFE2FF;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Times, sans-serif;
+    border-radius: 50%;
+    border: 4px solid #BFE2FF;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    transform: rotate(45deg);
+    transition: all 0.6s;
+    box-sizing: content-box;
+}
+#close_modal:hover {
+    color: #FFF;
+    transform: rotate(135deg);
+}
+.modal_txt {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    background: #FFF;
+    padding: 30px;
+    margin: 100px auto;
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-form {
+    max-width: 344px;
+}
+
+.price-input {
+    padding: 22px 18px;
+    width: 344px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #5D5D5F;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #000000;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.price-input::placeholder {
+    color: #5D5D5F;
+}
+
+.price .button {
+    width: 100%;
+}
+
+.button {
+    padding: 20px;
+    width: 334px;
+    height: 64px;
+    background: #030305;
+    border: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: background-color .5s;
 }
