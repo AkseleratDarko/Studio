@@ -6,7 +6,6 @@
     <title>Imagine Studio</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-     
 </head>
 <body>
 <div class="block">
@@ -28,11 +27,13 @@
                     </li>
                 </ul>
             </nav>
-            <a href="#" class="feedback">
-                <div class="feedback__link">Обратная связь</div>
+            <a href="#open" class="feedback open_modal">
+                <div class="feedback__link open_modal" href="#open">Обратная связь</div>
             </a>
         </header>
     </section>
+
+    
     <section id="main" class="main">
         <div class="container">
             <div class="main-info">
@@ -155,7 +156,7 @@
         <div class="advantages-hd">
             <div class="advantages-title">Почему мероприятие в imaginestudio пройдёт успешно?</div>
             <div class="advantages-text">Достоинства и преимущества работы с нами.</div>
-            <button class="advantages-btn btn">ОСТАВИТЬ ЗАЯВКУ</button>
+            <button class="advantages-btn btn" >ОСТАВИТЬ ЗАЯВКУ</button>
         </div>
         <div class="advantages-info">
             <div class="advantages-info__item">
@@ -242,7 +243,7 @@
                 </div>
                 <div class="information--text">
                     <div class="information-list__info">
-                        <div class="information-info__title">Подвал (954,5 м<sup>2</sup>)</div>
+                        <div class="information-info__title">Подвал <br>(954,5 м<sup>2</sup>)</div>
                         <ul class="information-list">
                             <li class="information-list__text">Выставки</li>
                             <li class="information-list__text">Частные мероприятия</li>
@@ -269,7 +270,7 @@
                 </div>
                 <div class="information--text">
                     <div class="information-list__info">
-                        <div class="information-info__title">Студия (251,6 м<sup>2</sup>)</div>
+                        <div class="information-info__title">Студия <br>(251,6 м<sup>2</sup>)</div>
                         <ul class="information-list">
                             <li class="information-list__text">Переговорная</li>
                             <li class="information-list__text">Лаунж зона</li>
@@ -296,7 +297,7 @@
                 </div>
                 <div class="information--text">
                     <div class="information-list__info">
-                        <div class="information-info__title">Guest room (70,1 м<sup>2</sup>)</div>
+                        <div class="information-info__title">Guest room <br>(70,1 м<sup>2</sup>)</div>
                         <ul class="information-list">
                             <li class="information-list__text">Кейтеринг</li>
                             <li class="information-list__text">Гримерная</li>
@@ -346,7 +347,7 @@
             </div>
         </div>
         <div class="information-fr">
-            <button class="information-btn">СКАЧАТЬ ПЛАНИРОВКУ</button>
+            <a href="./plan/БТИ Оверси.pdf" target="_blank" class="information-btn btn">СКАЧАТЬ ПЛАНИРОВКУ</a>
             <div class="information-fr__info">Для наглядного размещения декораций и подготовки мероприятия мы предлагаем Вам ознакомиться <br>
                 с планировкой творческого пространства, просто скачайте её и откройте используя телефон или ПК.</div>
         </div>
@@ -370,7 +371,7 @@
                 <img src="./image/3d/5.png" alt="">
             </div>
         </div>
-        <button class="tour-btn btn">ОСТАВИТЬ ЗАЯВКУ</button>
+        <button href="#" class="tour-btn btn ">ОСТАВИТЬ ЗАЯВКУ</button>
     </section>
     <section id="address" class="address">
         <div class="address-item">
@@ -459,8 +460,26 @@
             <div class="footer-politics__text">Информация на сайте не является публичной офертой, определяемой Ст. 437 п.2 ГК РФ. </div>
         </div>
     </footer>
+
+    <a class="open_modal" href="#open">Открыть окно</a>
+    <div id="modal" class="modal bounceIn">
+        <div id="close_modal">+</div>
+    <div class="modal_txt">
+        <input type="text" class="price-input" id="name" placeholder="Ваше имя">
+        <input type="text" class="price-input" id="phone" placeholder="Ваш телефон">
+        <button class="button" type="button" id="price-action">Заказать звонок</button></div>
+    </div>
+    </div>
+    
+
+
 </div>
 
-<script scr="script.js"></script>
+    
+
+
+
+
+<script src="./js/script.js"></script>
 </body>
 </html>
