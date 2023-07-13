@@ -587,6 +587,7 @@ body {
     margin: 10px;
     width: 375px;
     height: 355px;
+    overflow: hidden;
 }
 
 .tour-item__video:first-child {
